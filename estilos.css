@@ -117,8 +117,11 @@ nav ul li a
 {
 	background: white;
 	border-bottom: 3px solid #22BCE0;
-	overflow: hidden;
+	margin-bottom: 2em;
 	position: relative;
+	min-height: 110px;
+	border-radius: 0.5em;
+	
 }
 #contenido .item .autor_item 
 {
@@ -137,11 +140,13 @@ nav ul li a
 #contenido .item .imagen_item img
 {
 	width: 100px;
+	padding-top: 1em;
 }
 #contenido .item .titulo_item
 {
 	font-size: 1.2em;
 	font-style: italic;
+	padding: 1em 1em 0 0; 
 }
 #contenido .item .titulo_item a
 {
@@ -152,6 +157,7 @@ nav ul li a
 
 #contenido .item .datos_item
 {
+	margin: 1em;
 	text-align: right;
 }
 #contenido .item .datos_item .fecha_item
@@ -173,13 +179,21 @@ nav ul li a
 }
 #contenido .item .votacion
 {
-	border: 1px solid red;
+	background: white;
 	position: absolute;
-	left: 0;
-	top: 0;
+	border-radius: 0 0 0.5em 0.5em;
+	left: 5%;
+	top: 100%;
+	width: 90%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
 }
 
-
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: right;
+}
 
 
 
